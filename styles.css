@@ -7,7 +7,7 @@
 }
 
 .navbar {
-    background: #131313;
+    background: #742d6f;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -31,7 +31,7 @@
 
 #navbar__logo {
     background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-image: linear-gradient(to top, #f1ff2e 0%, #defd2b 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -88,7 +88,7 @@
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #f77062;
+    background: #f762d7;
     color: #fff;
 }
 
@@ -98,7 +98,7 @@
 }
 
 .navbar__links:hover {
-    color: #f77062;
+    color: #f262f7;
     transition: all 0.3s ease;
 }
 
@@ -196,5 +196,25 @@
     #mobile-menu.is-active .bar:nth-child(1) {
         transform: translateY(-8px) rotate(-45deg);
     }
+}
+
+
+/* Hero Section CSS*/
+.main {
+    background-color: #141414;
+}
+
+.main__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 90vh;
+    background-color: #141414;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
 }
 
